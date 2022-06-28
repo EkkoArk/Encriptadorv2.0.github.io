@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Montserrat';
+}
+
+header{
+  background-color: #030327;
+  padding: 5em;
+  width: 100%;
+  color: #fff;
+}
+
+#formulario .form{
+  display: flex;
+  justify-content: center;
+}
+
+#formulario .texto-encriptar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding: 2em;
+}
+
+#formulario .texto-encriptar h5 {
+  font-size: 12px;
+  padding: 10px 0;
+}
+
+#formulario .texto-encriptar textarea{
+  border: 1px solid #030327;
+  border-radius: 10px;
+  height: 300px;
+  margin: 10px 0 10px 0;
+  font-size: 13px;
+  width: 500px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#formulario .texto-encriptar .botones{
+  display: flex;
+  justify-content: space-around;
+}
+
+#formulario .texto-encriptar .botones input{
+  padding: 15px;
+  background-color: #030327;
+  border: none;
+  margin:  10px 20px ;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#formulario .texto-encriptado{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+
+#formulario .texto-encriptado textarea {
+  border: 1px solid #030327;
+  border-radius: 10px;
+  margin: 10px 0 10px 0;
+  height: 300px;
+  width: 500px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#formulario .texto-encriptado button {
+  padding: 15px;
+  background-color: #030327;
+  border: none;
+  margin: 10px 0 10px 0;
+  color: #fff;
+  justify-content: center;
+  text-transform: uppercase;
+  width: 100px;
+}
+
+footer{
+  background-color: #030327;
+  padding: 5em;
+}
+
+.logo{
+  padding:10px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo a{
+  font-size: 100px;
+  color: #fff;
+}
+
+#redes p {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width:1084px){
+  #formulario .texto-encriptar{
+    padding: 2em;
+  }
+
+  #formulario .texto-encriptar textarea{
+    width: 500px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width:996px) {
+  #formulario .texto-encriptar textarea{
+    width: 300px;
+    margin-right: 10px;
+  }
+  #formulario .texto-encriptado textarea{
+    width: 300px;
+    margin-right: 10px;
+  }
+
+  #formulario .texto-encriptado h2 {
+    font-size: 16px;
+  }
+
+  #formulario .texto-encriptar .botones input{
+    padding: 10px;
+  }
+  
+}
+
+@media screen and (max-width:800px) {
+  #formulario .form{
+    display: inline-block;
+    justify-content: center;
+  }
+  
+}

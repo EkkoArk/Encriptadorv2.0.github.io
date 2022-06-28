@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+    <meta charset="utf-8">
+
+    <title>Encriptador alura</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <header>
+            <h1 class="titulo">Encriptador alura-One</h1>  
+        </header>
+
+        <main id="main">
+            <section id="formulario">
+                <form class="form">
+                    <div class="texto-encriptar">
+                        <label for="input-texto"><h5>Solo letras minúsculas, sin acento, ni caracteres especiales</h5></label>
+                        <textarea class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese su texto aqui"></textarea>
+                        <div class="botones">
+                            <input class="boton1" type="button" value="Encriptar" id="boton-encriptar">
+                            <input class="boton2" type="button" value="Desencriptar" id="boton-desencriptar">
+                        </div>
+                    </div>
+                    <div class="texto-encriptado">
+                        <h2 id="h2">Mensaje Encriptado/Desencriptado</h2>
+                        <textarea class="text-input-salida" type="text" id="mensaje" placeholder="Mensaje Encriptado/Desencriptado"></textarea>  
+                        <button  class="copy" id="copy">Copiar</button> 
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer id="redes">
+            <div class="logo">
+                <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p>desarrollador: Kaleth coronado </p>
+            <p>Todos los derechos reservados - 2022</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
+
